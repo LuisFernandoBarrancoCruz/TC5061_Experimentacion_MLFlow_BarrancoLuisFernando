@@ -1,0 +1,20 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+
+# Datos, experimentos y artefactos generados localmente
+data/*
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+artifacts/
+mlruns/
+*.db
+
+# Archivos temporales de editores
+.vscode/
+.idea/
