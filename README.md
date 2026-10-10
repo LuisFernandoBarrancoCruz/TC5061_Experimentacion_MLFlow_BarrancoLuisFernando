@@ -129,13 +129,6 @@ python src/bank_marketing/train.py --run-name reproducibility_A --C 1 --penalty 
 python src/bank_marketing/train.py --run-name reproducibility_B --C 1 --penalty l2 --class-weight balanced --seed 42
 ```
 
-## Evidencias para el PDF
-
-1. En la vista **Runs**, selecciona las seis corridas y abre **Compare**. Muestra `C`, `penalty`, `class_weight`, F1, ROC-AUC y PR-AUC.
-2. Captura la tabla comparativa con los nombres y valores legibles.
-3. Abre la mejor corrida y captura parámetros, métricas y estado `Finished`.
-4. En la pestaña **Artifacts**, muestra `evaluation/` y el modelo registrado.
-
 ## Fuente de datos
 
 Moro, S., Rita, P., & Cortez, P. (2014). *Bank Marketing* [Dataset]. UCI Machine Learning Repository. <https://doi.org/10.24432/C5K306>
